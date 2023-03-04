@@ -1,2 +1,3 @@
 Este es un texto de prueba local para la clase 3.
 Agrego una línea desde la interfaz Web.
+Agrego una línea más localmente antes de hacer un pull.
