@@ -1,3 +1,5 @@
+package Clase2;
+
 public class Clase_2 {
 
     public static void main(String[] args) {
