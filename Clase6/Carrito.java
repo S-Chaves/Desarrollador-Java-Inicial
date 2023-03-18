@@ -1,15 +1,12 @@
 package Clase6;
 
-import Clase4.Persona;
-import Clase4.Producto;
-
 import java.time.LocalDateTime;
 
 public class Carrito {
     private int maxProd = 3;
     private int cantProd = 0;
-    public Clase4.Persona persona;
-    public Clase4.Producto productos[] = new Clase4.Producto[maxProd];
+    public Persona persona;
+    public Producto productos[] = new Producto[maxProd];
     public LocalDateTime fechaCompra;
     public Descuento descuento = new DescuentoFijo(0);
     public Carrito(Persona persona, Descuento descuento) {

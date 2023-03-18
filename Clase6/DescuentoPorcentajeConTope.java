@@ -6,4 +6,12 @@ public class DescuentoPorcentajeConTope extends DescuentoPorcentaje {
         super(valor);
         this.tope = tope;
     }
+
+    public float valorFinal(float valorIni) {
+        float porcentaje = this.getValor() * valorIni;
+        if (porcentaje > this.tope) {
+            return valorIni - this.tope;
+        }
+        return valorIni - porcentaje;
+    }
 }
