@@ -1,3 +1,4 @@
+/*
 package org.example;
 
 import java.time.LocalDate;
@@ -11,3 +12,4 @@ public class Persona {
     @Getter @Setter
     private LocalDate fechaNacimiento;
 }
+ */
